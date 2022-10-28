@@ -1,6 +1,5 @@
 package generics;
 
-import java.lang.management.MemoryUsage;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +23,7 @@ public class Wildcard {
         list3.add(2.7);
         list3.add(3.2);
         System.out.println(sumAllElements(list3));
-        
+
         List<Integer> list4 = new ArrayList<>();
         list4.add(22);
         list4.add(27);
