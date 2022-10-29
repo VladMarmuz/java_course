@@ -3,18 +3,22 @@ package io.serialization.pragrammer1;
 import java.io.Serializable;
 
 public class Employee implements Serializable {
+    static final long serialVersionUID = 2;
 
     String name;
+    String surname;
     String department;
-    int age;
-    double salary;
-
+    //int age;
+    transient double salary; // Добавляем слово , если не хотим чтобы оно не было сериализовано
     Car car;
 
-    public Employee(String name, String department, int age, double salary, Car car) {
+    public Employee(String name, String surname, String department,
+                    //         int age,
+                    double salary, Car car) {
         this.name = name;
+        this.surname = surname;
         this.department = department;
-        this.age = age;
+        // this.age = age;
         this.salary = salary;
         this.car = car;
     }
@@ -23,8 +27,9 @@ public class Employee implements Serializable {
     public String toString() {
         return "Employees{" +
                 "name='" + name + '\'' +
+                "surname='" + surname + '\'' +
                 ", department='" + department + '\'' +
-                ", age=" + age +
+                // ", age=" + age +
                 ", salary=" + salary +
                 ", car=" + car +
                 '}';
