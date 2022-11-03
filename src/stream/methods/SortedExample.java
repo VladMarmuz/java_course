@@ -1,4 +1,6 @@
-package stream;
+package stream.methods;
+
+import stream.Student;
 
 import java.util.ArrayList;
 import java.util.Arrays;

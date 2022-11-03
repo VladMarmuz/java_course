@@ -1,10 +1,10 @@
-package stream;
+package stream.methods;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class ReduceTest {
+public class ReduceExample {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(6);
