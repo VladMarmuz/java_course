@@ -1,4 +1,4 @@
-package multithreading.create_thread;
+package multithreading.lessaon1create_thread;
 
 public class RunnableEx2 extends Thread {
     @Override

@@ -1,4 +1,4 @@
-package multithreading.create_thread;
+package multithreading.lessaon1create_thread;
 
 public class NewThreadExamples {
     public static void main(String[] args) {
