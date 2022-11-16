@@ -1,4 +1,4 @@
-package multithreading.lessaon1create_thread;
+package multithreading.lesson1create_thread;
 
 public class RunnableEx {
     // с помощью Runnable чаще всего создаются потоки

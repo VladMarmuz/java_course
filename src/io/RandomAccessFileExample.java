@@ -2,10 +2,11 @@ package io;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.RandomAccessFile;
 
-public class RandomAccessFile {
+public class RandomAccessFileExample {
     public static void main(String[] args) {
-        try(java.io.RandomAccessFile randomAccessFile = new java.io.RandomAccessFile("test10.txt","rw")){
+        try(RandomAccessFile randomAccessFile = new RandomAccessFile("test10.txt","rw")){
 
             int a = randomAccessFile.read();//читает один байт
             System.out.println((char)a);
